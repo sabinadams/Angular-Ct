@@ -1,0 +1,24 @@
+.countContainer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    .group {
+        max-width: 400px;
+        display: flex;
+        flex-direction: column;
+        flex: 1;
+        .groupHead, .subCat {
+            margin: 5px;
+            background: #42b983;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+        .groupHead {
+            height: 80px;
+        }
+        .subCat {
+            height: 35px;
+        }
+    }
+}

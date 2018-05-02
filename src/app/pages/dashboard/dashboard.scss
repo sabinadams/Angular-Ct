@@ -1,0 +1,19 @@
+.dashboard {
+    width: 100%;
+    text-align: center;
+}
+.nav-buttons {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    .nav-button {
+        margin: 15px;
+        background: grey;
+        border: none;
+        height: 50px;
+        width: 300px;
+        &:hover {
+            background: darken( grey, 10)
+        }
+    }
+}
